@@ -36,7 +36,25 @@
  *     Next *ListNode
  * }
  */
+
+var left *ListNode
+
+func travel(right *ListNode) bool {
+	if right == nil {
+		return true
+	}
+	res := travel(right.Next)
+	res = res && (right.Val == left.Val)
+	left = left.Next
+	return res
+}
 func isPalindrome(head *ListNode) bool {
+	left = head
+
+	return travel(head)
+}
+
+func isPalindrome1(head *ListNode) bool {
 	if head == nil {
 		return true
 	}
