@@ -8,3 +8,5 @@ README.md
 141.linked-list-cycle.go
 148.sort-list.go
 142.linked-list-cycle-ii.go
+206.reverse-linked-list.go
+237.delete-node-in-a-linked-list.go
