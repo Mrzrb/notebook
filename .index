@@ -11,3 +11,4 @@ README.md
 206.reverse-linked-list.go
 237.delete-node-in-a-linked-list.go
 23.merge-k-sorted-lists.go
+725.split-linked-list-in-parts.go
