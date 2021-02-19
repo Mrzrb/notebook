@@ -12,3 +12,6 @@ README.md
 237.delete-node-in-a-linked-list.go
 23.merge-k-sorted-lists.go
 725.split-linked-list-in-parts.go
+114.flatten-binary-tree-to-linked-list.go
+116.populating-next-right-pointers-in-each-node.go
+226.invert-binary-tree.go
